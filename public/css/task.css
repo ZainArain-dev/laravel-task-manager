@@ -1,0 +1,25 @@
+.task-column {
+    min-height: 400px;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .task-card {
+    border-left: 5px solid;
+    margin-bottom: 1rem;
+    cursor: grab;
+  }
+  .border-todo { border-color: #dc3545 !important; }
+  .border-in_progress { border-color: #ffc107 !important; }
+  .border-done { border-color: #198754 !important; }
+
+  /* 💡 Static background colors for columns */
+  .bg-todo-column { background-color: #f8d7da; }          /* light red */
+  .bg-in_progress-column { background-color: #fff3cd; }   /* light yellow */
+  .bg-done-column { background-color: #d1e7dd; }           /* light green */
+
+  .toast-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9999;
+  }
